@@ -1,0 +1,14 @@
+<arquillian xmlns="http://jboss.com/arquillian" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+
+    <engine>
+        <property name="deploymentExportPath">target/deployment</property>
+    </engine>
+
+    <extension qualifier="webdriver">
+        <property name="browser">phantomjs</property>
+        <property name="browserSessionReuse">false</property>
+        <property name="ensureCleanSession">true</property>
+    </extension>
+
+</arquillian>
