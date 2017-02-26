@@ -1,5 +1,4 @@
-<arquillian xmlns="http://jboss.com/arquillian" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
->
+<arquillian xmlns="http://jboss.com/arquillian">
 
     <engine>
         <property name="deploymentExportPath">target/deployment</property>
